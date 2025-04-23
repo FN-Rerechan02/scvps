@@ -19,7 +19,7 @@ This autoscript is a lifetime free autoscript with simple v2ray x noobzvpns mult
 
 ``🚀 Installation Guide``
 ```html
-apt update && apt install wget curl screen -y && curl -L -k -sS https://codeberg.org/Rerechan02/scvps/raw/branch/main/install.sh -o install.sh && chmod +x install.sh && screen -S fn ./install.sh; if [ $? -ne 0 ]; then rm -f install.sh; fi
+apt update && apt install wget curl screen lsb-release -y && curl -L -k -sS https://codeberg.org/Rerechan02/scvps/raw/branch/main/install.sh -o install.sh && chmod +x install.sh && screen -S fn ./install.sh; if [ $? -ne 0 ]; then rm -f install.sh; fi
 ```
 
 ``If it stops in the middle of the process``
