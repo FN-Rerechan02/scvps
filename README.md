@@ -19,7 +19,7 @@ This autoscript is a lifetime free autoscript with simple v2ray x noobzvpns mult
 
 ``🚀 Installation Guide``
 ```html
-apt update && apt install wget curl screen -y && curl -L -k -sS https://codeberg.org/Rerechan02/scvps/raw/branch/main/install.sh -o setup.sh && chmod +x setup.sh && screen -S fn ./setup.sh; if [ $? -ne 0 ]; then rm -f setup.sh; fi
+apt update && apt install wget curl screen -y && curl -L -k -sS https://codeberg.org/Rerechan02/scvps/raw/branch/main/install.sh -o install.sh && chmod +x install.sh && screen -S fn ./install.sh; if [ $? -ne 0 ]; then rm -f install.sh; fi
 ```
 
 ``If it stops in the middle of the process``
@@ -31,16 +31,16 @@ screen -r fn
 ## 🌐 Port Information
 | **Service**            | **Port(s)**           |
 |-------------------------|-----------------------|
-| **XRAY Vmess TLS**     | 443, 400-700, 8443, 2096, 2087                  |
-| **XRAY Vmess gRPC**    | 443, 400-700, 8443, 2096, 2087                  |
-| **XRAY Vmess None TLS**| 80, 8080, 2082                   |
-| **XRAY Vless TLS**     | 443, 400-700, 8443, 2096, 2087                  |
-| **XRAY Vless gRPC**    | 443, 400-700, 8443, 2096, 2087                  |
-| **XRAY Vless None TLS**| 80, 8080, 2082                   |
-| **Trojan gRPC**        | 443, 400-700, 8443, 2096, 2087                  |
-| **Trojan WS**          | 443, 400-700, 8443, 2096, 2087                  |
-| **NoobzVPN HTTP**     | 80, 8080, 2082                  |
-| **NoobzVPN HTTP(S)**   | 443, 400-700, 8443, 2096, 2087                  |
+| **XRAY Vmess TLS**     | 443                  |
+| **XRAY Vmess gRPC**    | 443                  |
+| **XRAY Vmess None TLS**| 80, 2082                   |
+| **XRAY Vless TLS**     | 443                  |
+| **XRAY Vless gRPC**    | 443                  |
+| **XRAY Vless None TLS**| 80, 2082                   |
+| **Trojan gRPC**        | 443                  |
+| **Trojan WS**          | 443                  |
+| **NoobzVPN HTTP**     | 80, 2082                  |
+| **NoobzVPN HTTP(S)**   | 443                  |
 
 ---
 
