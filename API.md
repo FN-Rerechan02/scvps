@@ -8,7 +8,7 @@
 
 - Addssh
 ```shell
-curl -X POST https://your-api-endpoint.com/addssh \
+curl -X POST https://your-api-endpoint.com/api/addssh \
     -H "Authorization: Bearer your_bearer_token" \
     -H "Content-Type: application/json" \
     -d '{
