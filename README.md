@@ -69,7 +69,7 @@ Detail: Ubuntu. We have tried testing on all LTS and Non LTS versions with code 
 
 ## REST API
 
-[API](./API.md)
+[API](https://app.swaggerhub.com/apis-docs/fnrerechan02/FN-API/1.0.0)
 
 ---
 
