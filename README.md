@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=red&center=true&vCenter=true&lines=Welcome+to+FN+PROJECT+[VPN]" alt="FN Project VPN">
+  <img src="https://readme-typing-svg.herokuapp.com?color=red&center=true&vCenter=true&lines=Welcome+to+PROJECT+RERECHAN+[VPN]" alt="Project Rerechan VPN">
 </p>
 
 ---
 
-<h1 align="center">📡 FN Project VPN</h1>
+<h1 align="center">📡 Project Rerechan VPN</h1>
 <p align="center">
   Powerful and secure VPN service with advanced features for all your needs.
 </p>
