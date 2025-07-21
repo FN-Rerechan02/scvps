@@ -100,14 +100,9 @@ Detail: Ubuntu. We have tried testing on all LTS and Non LTS versions with code 
 
 ---
 
-## GeGeVPS Plugin
-- already installed when the script is installed
-
-featured:
-- create ssh, vmess, vless & trojan
-- extend ssh, vmess, vless & trojan
-
-[BOT](https://github.com/GegeDevs/vpnpanel-docs)
+## BIOT Plugin
+- BOT TELEGRAM GUI SCRIPT 
+- BOT NOTIFICATION AUTO BACKUP DATABASE
 
 ---
 
