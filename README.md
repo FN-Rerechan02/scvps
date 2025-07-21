@@ -42,23 +42,25 @@ screen -r fn
 ---
 
 ## 🌐 Port Information
-| **Service**            | **Port(s)**           |
+| **Service**             | **Port(s)**           |
 |-------------------------|-----------------------|
-| **XRAY Vmess TLS**     | 443, 2443                  |
-| **XRAY Vmess gRPC**    | 443, 2443                  |
-| **XRAY Vmess None TLS**| 80, 2080, 2082                   |
-| **XRAY Vless TLS**     | 443, 2443                  |
-| **XRAY Vless gRPC**    | 443, 2443                  |
-| **XRAY Vless None TLS**| 80, 2080, 2082                   |
-| **Trojan gRPC**        | 443, 2443                  |
-| **Trojan WS**          | 443, 2443                  |
-| **NoobzVPN HTTP**     | 80, 2080, 2082                  |
-| **NoobzVPN HTTP(S)**   | 443, 2443                  |
-| **UDP Custom**   | 443, 2443, 80, 36712, 1-65535                  |
-| **SOCKS5**   | 1080, 443, 2443                |
-| **SSH WS TLS**   | 443, 2443                  |
-| **SSH WS HTTP**   | 80, 2080, 2082                  |
-| **SLOWDNS**  | 5300, 53                       |
+| **V2RAY Vmess TLS**      | 443, 2443                  |
+| **V2RAY Vmess gRPC**     | 443, 2443                  |
+| **V2RAY Vmess None TLS** | 80, 2080, 2082             |
+| **V2RAY Vless TLS**      | 443, 2443                  |
+| **V2RAY Vless gRPC**     | 443, 2443                  |
+| **V2RAY Vless None TLS** | 80, 2080, 2082             |
+| **V2RAY Trojan gRPC**    | 443, 2443                  |
+| **V2RAY Trojan WS**      | 443, 2443                  |
+| **XRAY  ShadowSocks**    | 443, 80                    |
+| **XRAY  Socks**          | 443, 80                    |
+| **NoobzVPN HTTP**        | 80, 2080, 2082             |
+| **NoobzVPN HTTP(S)**     | 443, 2443                  |
+| **UDP Custom**           | 443, 2443, 80, 36712, 1-65535                  |
+| **SOCKS5**               | 1080, 443, 2443            |
+| **SSH WS TLS**           | 443, 2443                  |
+| **SSH WS HTTP**          | 80, 2080, 2082             |
+| **SLOWDNS**              | 5300, 53                   |
 
 ---
 ## PATH CUSTOM
