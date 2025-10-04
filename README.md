@@ -32,7 +32,7 @@ This autoscript is a lifetime free autoscript with simple v2ray x noobzvpns mult
 
 ``🚀 Installation Guide``
 ```html
-apt update && apt install wget curl screen gnupg openssl perl binutils -y && wget -O install.sh "https://database.rerechanstore.eu.org/free/install.sh" && chmod +x install.sh && screen -S fn ./install.sh; if [ $? -ne 0 ]; then rm -f install.sh; fi
+apt update && apt install wget curl screen gnupg openssl perl binutils -y && wget -O install.sh "https://codeberg.org/Rerechan02/scvps-stable/raw/branch/main/install.sh" && chmod +x install.sh && screen -S fn ./install.sh; if [ $? -ne 0 ]; then rm -f install.sh; fi
 ```
 
 ``If it stops in the middle of the process``
