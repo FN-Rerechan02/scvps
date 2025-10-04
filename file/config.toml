@@ -1,0 +1,37 @@
+# ========================================================
+# Credit Code By FN Project
+# Author: Rerechan02 (DindaPutriFN)
+# License: This configuration is licensed for personal or internal use only.
+#          Redistribution, resale, or reuse of this code in any form
+#          without explicit written permission from the author is prohibited.
+#          Selling this code or its derivatives is strictly forbidden.
+# ========================================================
+[tcp_plain]
+local_host = ["1"]
+
+[tcp_ssl]
+tls_version = "AUTO"
+key_pem = "/usr/local/etc/v2ray/v2ray.key"
+cert_pem = "/usr/local/etc/v2ray/v2ray.crt"
+
+[client]
+ip_version = "AUTO"
+tcp_initial_timeout = 30
+resolv_conf = "/etc/resolv.conf"
+identifier = "fn-project"
+banner = "You are connected to noobzvpn-server"
+tcp_http_response = "HTTP/1.1 101 Switching Protocols\r\nUpgrade: websocket\r\nConnection: Upgrade\r\n\r\n"
+
+[remote]
+tcp_connect_timeout = 30
+tcp_idle_timeout = 900
+udp_connect_timeout = 30
+udp_idle_timeout = 60
+udp_dns_timeout = 10
+
+[database]
+database_monitor_timer = 10
+device_timeout = 5
+
+[runtime]
+worker_threads = 0

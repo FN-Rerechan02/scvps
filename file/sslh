@@ -1,0 +1,11 @@
+# ========================================================
+# Credit Code By FN Project
+# Author: Rerechan02 (DindaPutriFN)
+# License: This configuration is licensed for personal or internal use only.
+#          Redistribution, resale, or reuse of this code in any form
+#          without explicit written permission from the author is prohibited.
+#          Selling this code or its derivatives is strictly forbidden.
+# ========================================================
+RUN=yes
+DAEMON=/usr/sbin/sslh
+DAEMON_OPTS="--user sslh --listen 0.0.0.0:2443 --ssh 127.0.0.1:22 --tls 127.0.0.1:1013 --socks5 127.0.0.1:1080 --http 127.0.0.1:700 --pidfile /var/run/sslh/sslh.pid -n"
